@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendação musical</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="card">
+        <h1>Qual música vou escutar hoje?</h1>
+        <form action="https://www.google.com.br/search" method="get" target="_blank">
+            <label for="genero" class="mb2">Genero musical</label>
+            <select name="genero" id="genero" class="mb">
+                <option value=""></option>
+                <option value="Pagode">Pagode</option>
+                <option value="Sertanejo">Sertanejo</option>
+                <option value="Funk">Funk</option>
+            </select>
+            <label for="musica" class="mb2">Musica indicada</label>
+            <input type="text" class="musica mb" name="q">
+            <div class="btn">
+                <button type="submit">Buscar música</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

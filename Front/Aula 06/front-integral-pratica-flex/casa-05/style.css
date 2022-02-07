@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+    background-color: grey;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px auto;
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 28px;
+
+    color: #202142;
+}
+
+p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #202142;
+}
+a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.card{
+    background: #FFFFFF;
+
+    box-shadow: 0px 16px 45px -15px rgba(2, 5, 132, 0.25);
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.card-small {
+    width: 583px;
+    padding: 30px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.nome-cargo-foto{
+    display: flex;
+    flex-direction: row;
+}
+
+.foto-perfil{
+    width: 84px;
+    border-radius: 50%;
+    padding: 8px;
+}
+.nome-cargo{
+    margin: 19px 0px 0px 19px
+}
+
+.nome-cargo h1{
+    margin-bottom: 10px;
+}
+
+.btn{
+    max-height: 54px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 30px;
+
+    padding: 0px 30px;
+    border-radius: 10px;
+}
+
+.top a{
+    color: #FFFFFF;
+
+    background: #202142;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+.design-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.design-1 img{
+    width: 32%;
+    border-radius: 10px;
+}
+
+.card-large{
+    width: 1000px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.dados{
+    display: flex;
+    flex-direction: row;
+}
+.nome-cardo-btn{
+    margin-left:20px ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.nome-cardo-btn h1{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+.design-2{
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+}
+
+.design-2 img{
+    width: 216px;
+}
+
+.dados a{
+    color: #202142;
+    padding: 15px 30px;
+
+    background: lightslategray;
+
+    border: 1px solid #A4A4CB;
+
+}
+
+.icon-light{
+    color: #202142;
+}

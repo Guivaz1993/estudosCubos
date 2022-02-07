@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+}
+
+h1 {
+    height: 100px;
+    width: 300px;
+    background-color: indianred;
+    margin: 8px;
+ 
+}
+
+.vermelho{
+    color: red;
+    margin-bottom: 20px;
+}
+
+.amarelo{
+    color: yellow;
+    margin-bottom: 10px;
+}
+
+.verde{
+    color: green;
+    border: 2px solid indigo;
+}
+
+.azul{
+    color: blue;
+    padding: 20px;
+}
+
+.laranja{
+    color: orange;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.roxo{
+    color: purple;
+    border-radius: 10px;
+}
+
+.preto{
+    color:white;
+    background-color: black;
+}

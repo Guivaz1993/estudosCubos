@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{   
+    display: flex;
+    justify-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url("assets/background.jpg");
+    background-repeat: no-repeat;
+}
+
+div.card{
+    background-color: white;
+    min-width: 350px;
+    min-height: 374px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+    border-radius: 20px;
+    background-image: url("assets/bg-pattern-card.svg");
+    background-repeat: no-repeat;
+}
+
+.dados {
+    margin-top: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dados img{
+    border-radius: 50%;
+    border: 5px solid #FFFFFF;
+    margin-bottom: 22px;
+}
+
+.nomeIdade{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+
+    color: #2E3349;
+}
+.idade{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+
+    color: #6B7082;
+
+    margin-left: 8px;
+}
+
+span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+
+
+    color: #6B7082;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 53px;
+}
+.social h1{
+    margin-bottom: 8px;
+}
+
+.social span{
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 1.5px;
+}
+
+.followers , .likes , .photos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

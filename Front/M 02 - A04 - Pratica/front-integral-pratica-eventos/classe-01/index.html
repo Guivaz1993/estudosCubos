@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./flex.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body class="flex">
+    <aside class="menu-lateral fechado column">
+        <button class="menu-btn btn__abre">
+            <img src="./assets/closed-menu.svg" alt="" class="open-close">
+        </button>
+        <button class="menu-btn btn-ativo">
+            <div class="flex align-center">
+                <img src="./assets/active-home.svg" alt="">
+                <span class="label">Inicio</span>
+            </div>
+        </button>
+        <button class="menu-btn mb-auto">
+            <div class="flex align-center">
+                <img src="./assets/inactive-like.svg" alt="">
+                <span class="label">Favoritos</span>
+            </div>
+        </button>
+        <button class="menu-btn">
+            <div class="flex align-center">
+                <img src="./assets/inactive-settings.svg" alt="">
+                <span class="label">Configurações</span>
+            </div>
+        </button>
+    </aside>
+    <main class="pagina ">
+        <h1>Início</h1>
+        <div class="lista flex flex-wrap justify-center">
+            <div class="card card-1">
+                <img src="./assets/inactive-like.svg" alt="" class="like">
+                <img src="./assets/gallery/image 1.png" alt="" class="card__img">
+                <div class="legenda flex justify-between">
+                    <p>Lorem, ipsum</p>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+            <div class="card card-resto">
+                <img src="./assets/inactive-like.svg" alt="" class="like">
+                <img src="./assets/gallery/image 2.png" alt="" class="card__img">
+                <div class="legenda flex justify-between">
+                    <p>Lorem, ipsum</p>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+            <div class="card card-resto">
+                <img src="./assets/inactive-like.svg" alt="" class="like">
+                <img src="./assets/gallery/image 3.png" alt="" class="card__img">
+                <div class="legenda flex justify-between">
+                    <p>Lorem, ipsum</p>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+            <div class="card card-resto">
+                <img src="./assets/inactive-like.svg" alt="" class="like">
+                <img src="./assets/gallery/image 4.png" alt="" class="card__img">
+                <div class="legenda flex justify-between">
+                    <p>Lorem, ipsum</p>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+            <div class="card card-resto">
+                <img src="./assets/inactive-like.svg" alt="" class="like">
+                <img src="./assets/gallery/image 5.png" alt="" class="card__img">
+                <div class="legenda flex justify-between">
+                    <p>Lorem, ipsum</p>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+            <div class="card card-resto">
+                <img src="./assets/inactive-like.svg" alt="" class="like">
+                <img src="./assets/gallery/image 6.png" alt="" class="card__img">
+                <div class="legenda flex justify-between">
+                    <p>Lorem, ipsum</p>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+            <div class="card card-resto">
+                <img src="./assets/inactive-like.svg" alt="" class="like">
+                <img src="./assets/gallery/image 7.png" alt="" class="card__img">
+                <div class="legenda flex justify-between">
+                    <p>Lorem, ipsum</p>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+            <div class="card card-resto">
+                <img src="./assets/inactive-like.svg" alt="" class="like">
+                <img src="./assets/gallery/image 8.png" alt="" class="card__img">
+                <div class="legenda flex justify-between">
+                    <p>Lorem, ipsum</p>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+            <div class="card card-resto">
+                <img src="./assets/inactive-like.svg" alt="" class="like">
+                <img src="./assets/gallery/image 9.png" alt="" class="card__img">
+                <div class="legenda flex justify-between">
+                    <p>Lorem, ipsum</p>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+            <div class="card card-ultimo">
+                <img src="./assets/inactive-like.svg" alt="" class="like">
+                <img src="./assets/gallery/image 10.png" alt="" class="card__img">
+                <div class="legenda flex justify-between">
+                    <p>Lorem, ipsum</p>
+                    <span>há 1 mês</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="modal modal__close">
+        <button class="modal__button modal__button--close">
+            <img src="./assets/close-modal.svg" alt="Fechar modal" class="img__btn-close">
+        </button>
+        <div class="modal__container flex align-center justify-center">
+            <img class="modal__button modal__button--previous" src="./assets/prev.svg" alt="Anterior">
+            <img class="modal__image">
+            <img class="modal__like" alt="Like">
+            <img class="modal__button modal__button--next" src="./assets/next.svg" alt="Próximo">
+        </div>
+    </div>
+</body>
+
+</html>

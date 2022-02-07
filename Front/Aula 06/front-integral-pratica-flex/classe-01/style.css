@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+body{
+    background: #F2F2F2;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 64%;
+
+
+    margin: 150px auto;
+
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.card{
+    padding: 48px;
+    min-height: 43vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.esquerda{
+    background: #E28625;
+    border-radius: 8px;
+}
+
+.meio{
+    background: #006971;
+    border-radius: 8px;
+}
+
+.direita{
+    background: #004140;
+    border-radius: 8px;
+}
+
+img{
+    margin-bottom: 8%;
+}
+
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    /* line-height: 7%; */
+
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    color: #F2F2F2;
+
+    margin-bottom: 6%;
+}
+
+p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    /* line-height: 167%; */
+
+
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.75;
+
+    margin-bottom: 30%;
+}
+
+a{
+    text-decoration: none;
+    padding: 6% 10%;
+    background: #F2F2F2;
+    border-radius: 25px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.esquerda a{
+    color: #E28625;
+}
+.meio a{
+    color: #006971;
+}
+.direita a{
+    color: #004140;
+}

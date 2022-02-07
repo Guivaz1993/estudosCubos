@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 50px 80px;
+    background: #E9EEF7;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 32px;
+    padding: 90px 60px;
+}
+
+div.boxcard{
+    display: flex;
+    align-items: center;
+}
+div.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    padding: 38px 50px 50px;
+}
+img{
+    margin-bottom: 5px ;
+}
+
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #0C1727;
+    
+}
+
+.boxcard h1{
+    font-size: 20px;
+    line-height: 26px;
+
+    margin-bottom: 10px;
+}
+
+p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+
+    margin-bottom: 35px;
+}
+a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    padding: 13px 20px;
+    background: #0C1727;
+    border-radius: 3px;
+}

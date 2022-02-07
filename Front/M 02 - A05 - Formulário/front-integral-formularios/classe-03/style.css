@@ -1,0 +1,49 @@
+body{
+    height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: #1a1a1a;;
+    color: #fff;
+}
+
+h1{
+    background-color: #242424;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+    padding: 50px;
+    border-radius: 20px;
+
+    background-color: #242424;
+}
+
+button{
+    cursor: pointer;
+
+    background: #1ed760;
+
+    padding: 15px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.btn{
+    align-self: center;
+}
+
+.mb{
+    margin-bottom: 16px;
+}
+
+.mb2{
+    margin-bottom: 8px;
+}

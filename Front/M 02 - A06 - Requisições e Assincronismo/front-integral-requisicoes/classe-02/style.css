@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+
+    background: rgb(214, 211, 211);
+}
+
+main{
+    padding: 25px;
+
+    border-radius: 20px;
+
+    background: rgb(240, 161, 13);
+}
+
+h1,h2{
+    margin-bottom: 20px;
+}
+
+.itens{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 15px;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+input{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.display-none{
+    display: none;
+}

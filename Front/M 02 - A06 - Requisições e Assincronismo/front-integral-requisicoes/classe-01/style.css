@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+
+    background: lightslategrey;
+}
+
+main{
+    padding: 25px;
+
+    border-radius: 20px;
+
+    background: lightsteelblue;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.itens{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 15px;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+input{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.display-none{
+    display: none;
+}
+
+p{
+    color: red;
+}

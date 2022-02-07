@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Neuton', serif;
+    font-weight: 400;
+}
+
+.container{
+    background: #1F1C44;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 0;
+}
+
+.flex-colunm{
+    display: flex;
+    flex-direction: column;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.align-start{
+    align-items: flex-start;
+}
+
+.card{
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 40px 65px 30px;
+}
+
+button{
+    all: unset;
+    font-family: 'Mulish', sans-serif;
+    width: 337px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+    cursor:pointer;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #000000;
+
+    margin-bottom: 40px;
+}
+.top button{
+
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+
+    padding: 7px 0px;
+    background: #5B86E6;
+    border-radius: 5px;
+
+    margin-bottom: 40px;
+}
+.top button:hover{
+    box-shadow: 0px 4px 13px rgba(19, 69, 178, 0.3);
+}
+.top button img{
+    margin-left: 5px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.top p{
+    font-size: 14px;
+    line-height: 18px;
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #949495;
+}
+
+.top{
+    margin-bottom: 30px;
+}
+label{
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin-bottom: 4px;
+}
+input{
+    all: unset;
+
+    font-family: 'Mulish', sans-serif;
+    width: 337px;
+
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #949495;
+    padding: 20px 18px;
+
+    background: #FFFFFF;
+    border: 1px solid #D9DCED;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+input:focus{
+    color: black;
+
+    border: 1px solid #000000;
+}
+
+.name{
+    margin-bottom: 15px;
+}
+.dados{
+    margin-bottom: 20px;
+}
+
+.started{
+    padding: 20px 0;
+
+    background: #E65B7C;
+    border-radius: 5px;
+
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+
+    margin-bottom: 40px;
+}
+.started:hover{
+    box-shadow: 0px 4px 15px rgba(204, 28, 69, 0.3);
+}
+
+.bottom p{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.bottom a{
+    text-decoration: none;
+    color: #5B86E6;
+}

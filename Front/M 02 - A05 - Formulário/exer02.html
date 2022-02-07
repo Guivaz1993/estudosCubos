@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <h1>Cadatro</h1>
+    <form action="">
+        <div class="nome">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" required>
+        </div>
+        <div class="email">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" required>
+        </div>
+        <div class="senha">
+            <label for="senha">Senha</label>
+            <input type="password" id="senha">
+        </div>
+        <div class="confirma">
+            <label for="confirma">Confirme sua senha</label>
+            <input type="password" id="confirma">
+        </div>
+        <div class="ehCliente">
+            <span>Já é cliente:</span>
+            <label>
+                Sim
+                <input type="radio" name="ehCliente" id="">
+            </label>
+            <label>
+                Não
+                <input type="radio" name="ehCliente" id="" checked>
+            </label>
+        </div>
+        <div class="btn">
+            <button type="submit">Calcular</button>
+        </div>
+    </form>
+</body>
+
+<style>
+    body {
+        height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div {
+        margin: 10px;
+    }
+
+    button {
+        justify-self: center;
+    }
+</style>
+<script>
+    const senha = document.querySelector("#senha")
+    const confrima = document.querySelector("#confirma")
+    const formulario = document.querySelector("form")
+
+    formulario.addEventListener("submit", function (event) {
+
+        if (senha.value !== confirma.value) {
+            event.preventDefault();
+        }
+
+    })
+</script>
+
+</html>

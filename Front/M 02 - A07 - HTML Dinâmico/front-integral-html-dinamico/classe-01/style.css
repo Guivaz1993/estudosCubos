@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(242, 231, 211);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+.card{
+    width: 1000px;
+
+    font-family: sans-serif;
+    
+    background-color: rgb(165, 123, 68);
+    display: flex;
+    flex-direction: column;
+    
+    padding: 40px;
+    
+    border-radius: 8px;
+}
+h1{
+
+    font-size: 42px;
+}
+
+input{
+    all: unset;
+
+    background: white;
+
+
+    padding: 8px;
+    border-radius: 8px;
+
+
+    font-size: 24px;
+}
+
+.paises{
+    display: flex;
+
+    margin-top: 40px;
+}
+
+.dados{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 32px;
+
+    margin-bottom: 32px;
+
+}
+
+
+p{
+    margin: 0px;
+}
+
+span,p{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+img{
+    margin-left: 20px;
+
+    border-radius: 12px;
+
+    width: 500px;
+    height: auto;
+}

@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #EFF2F8;
+    font-family: 'Mulish', sans-serif;
+    padding: 20px;
+
+    background-image: url("assets/background.png");
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+    width: 739px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.close{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-right: 132px;
+}
+
+.bottom h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #494949;
+
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.bottom p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #494949;
+    margin: 0;
+    margin-bottom: 30px;
+    margin-right: 164px;
+}
+
+.container-input-btn{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.bottom{
+    width: 631px;
+    margin-left:70px ;
+    margin-bottom: 30px;
+}
+
+input{
+    all: unset;
+
+    width: 510px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #494949;
+    padding: 15px 0px 15px 20px;
+
+    margin-right: 10px;
+
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button{
+    all: unset;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+        
+    color: #FFFFFF;
+
+    padding: 12px 35px;
+    background: #9677EF;
+    border-radius: 5px; 
+}
+
+a{
+    color:#9677EF ;
+}
+
+input:focus{
+    border: 1px solid #272727;
+}
+
+button:hover{
+    background: rgba(150, 119, 239, 0.8);
+    box-shadow: 0px 11px 20px rgba(150, 119, 239, 0.3);
+    border-radius: 5px;
+}

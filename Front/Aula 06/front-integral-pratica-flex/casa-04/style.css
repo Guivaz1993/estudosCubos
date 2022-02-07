@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #DADDE1;
+    margin-top: 30px;
+
+    color: #000000;
+}
+div.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+    border-radius: 10px;
+    padding: 50px;
+    margin-bottom: 70px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 33px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;    
+
+}
+
+a{
+    color: black;
+    font-size: 16px;
+    line-height: 19px;
+
+    text-decoration: none;
+}
+
+.top a{
+    text-align: right;
+    text-decoration-line: underline;
+}
+
+.vertical a{
+    color: #FFFFFF;
+
+    background: #000000;
+    border-radius: 60px;
+    padding: 18px 30px;
+}
+
+.peoples-card{
+    display: flex;
+    justify-content: space-around;
+
+}
+.people{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 135px;
+
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    padding: 25px 35px 6px; 
+    margin: 0px 4px 4px;
+}
+
+.foto-people{
+    border-radius: 50%;
+    width: 66px;
+    height: 66px;
+}
+
+h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+.people .foto-people{
+    margin-bottom: 15px;
+}
+
+.people h2{
+    margin-bottom: 22px;
+}
+
+.plus{
+    background: black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.numero{
+    margin-left: 10px;
+
+    align-items: center;
+    padding: 6px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.pessoas{
+    margin-bottom: 40px;
+}
+
+.pessoa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.nome-pais{
+    margin-left: 20px;
+    margin-right: 131px;
+}
+
+span{
+    font-size: 14px;
+    line-height: 16px;
+}

@@ -1,0 +1,65 @@
+body{
+    background-color: burlywood;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+
+    box-sizing: content-box;
+}
+
+div{
+    font-family: sans-serif;
+    
+    background-color: rgb(194, 156, 106);
+    display: flex;
+    flex-direction: column;
+    
+    padding: 12px;
+
+    border-radius: 8px;
+}
+
+input{
+    all: unset;
+
+    background: white;
+
+
+    padding: 4px;
+    border-radius: 8px;
+}
+
+input:focus{
+
+    border: 2px solid black;
+}
+
+ul{
+    all: unset;
+
+    padding: 10px;
+}
+
+li{
+    margin: 6px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 0px 10px;
+
+    background-color: darkgray;
+}
+
+.riscado{
+    text-decoration: line-through;
+}
